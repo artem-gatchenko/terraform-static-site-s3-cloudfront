@@ -1,4 +1,4 @@
-![terraform](terraform.png)
+![terraform](terraform-logo.png)
 
 # Terraform - Static site on S3 with CloudFront
 Terraform template for create S3 Bucket for static hosting with CloudFront

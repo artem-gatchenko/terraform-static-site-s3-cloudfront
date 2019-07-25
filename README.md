@@ -1,4 +1,4 @@
-![terraform](terraform.png)
+![picture](terraform.png)
 
 # Terraform - Static site on S3 with CloudFront
 Terraform template for create S3 Bucket for static hosting with CloudFront
@@ -47,18 +47,18 @@ Change the directory to the relevant environment you want to initialize.
 ### Environment initialization
 Run the *init* command.
 ```bash
-    # The first command only for initializing (only if didn't start before)
-    terraform init
+# The first command only for initializing (only if didn't start before)
+terraform init
 
 ```
 ### Start/change an environment
 Run the *plan* or *apply* command.
 ```bash
-    # to show changes list
-    terraform plan
+# to show changes list
+terraform plan
 
-    # to apply the changes
-    terraform apply
+# to apply the changes
+terraform apply
 ```
 
 ### Stopping(destroying) an environment
@@ -67,8 +67,8 @@ Run the *destroy* command.
 **Warning!!!** the command will not just stop but completely remove the infrastructure used for this environment :
 
 ```bash
-    # Run the destroy command
-    terraform destroy
+# Run the destroy command
+terraform destroy
 ```
 
 ## How update S3 content
